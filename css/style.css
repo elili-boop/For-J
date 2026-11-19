@@ -233,3 +233,20 @@ p {
         transform: translateY(0) scale(1);
     }
 }
+
+.part-button {
+    background-color: #f4a6bd;
+    color: white;
+    border: none;
+    padding: 10px 24px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 20px;
+    transition: 0.3s ease;
+}
+
+.part-button:hover {
+    background-color: #e887a6;
+    transform: scale(1.08);
+}
